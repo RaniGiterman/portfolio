@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  background-color: #eee;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cool {
+  background-color: #eee;
+	padding-top: 30px;
 }
+
+.f {
+  font-family: Georgia, serif;
+  margin-bottom: 0;
+}
+
+.f2 {
+  font-family: main;
+}
+
+@font-face {
+  font-family: main;
+  src: url("./mainFont.ttf");
+}
+
+.g {
+  color: #666;
+}
+
+.b {
+  border: 1px solid #ccc;
+}
+
+.e {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  color: #2563eb;
+  text-align: center;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px;
+ }
+
+ .m::before {
+  margin-right: .5rem;
+  content: "#";
+  color: black;
+ }
+  
+.r {
+  transform:rotate(90deg);
+}
+
+.p {
+  border: 1px solid rgb(60, 59, 110);
+	text-decoration: none;
+	padding-top: 1em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	padding-bottom: 0.2em;
+	margin-top: 2em;
+	text-align: center;
+	color: #245;
+	background-color: #e0f0ff44;
+}
+
+.gray {
+  filter: grayscale(80%);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
