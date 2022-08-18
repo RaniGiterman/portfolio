@@ -2,15 +2,11 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bg-white p-10 b text-left w-full">
+    <div className="bg-white p-10 b text-left">
       <h2 className="text-blue-600">About Me</h2>
       <br></br>
-      <img src="rani.jpg" alt="Me" className="w-full h-full"></img>
+      <img src="rani.jpg" alt="Me" className="w-full rounded-sm h-full"></img>
       <p className="text-xl mt-2">
-        <s>
-          Hello, my name is (name). I am a (year in school) studying at
-          (school).
-        </s>{" "}
         Hello, my name is Rani Giterman, and I am a sophomore studying at Ironi
         D Highschool. I'm growing up in a family of tremendously skilled
         programmers and know that being some type of an engineer is my calling.
@@ -22,9 +18,23 @@ export default function Home() {
         >
           Wii
         </a>
-        . I began my journey of coding around age 9, altough I consider I really
-        got into it at age 14. In my free time I like to enrich my knowledge in
-        the computer-related world, as well as I like to play video games.
+        . I began my journey of coding around age 9, although I consider I
+        really got into it at age 14. In my free time I like to enrich my
+        knowledge in the computer-related world, play video-games, grind{" "}
+        <a
+          className="text-blue-600 decoration-transparent"
+          href="https://leetcode.com/RaniGiterman/"
+        >
+          leetcode
+        </a>
+        , answer{" "}
+        <a
+          className="text-blue-600 decoration-transparent"
+          href="https://stackoverflow.com/users/17802928/rani-giterman?tab=profile"
+        >
+          stackoverflow{" "}
+        </a>
+        questions and listen to music.
       </p>
     </div>
   );

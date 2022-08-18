@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="bg-white p-10 b text-xl text-left mb-2">
+    <div className="bg-white p-10 b text-xl text-left mb-2 w-fit">
       <h2 className="text-blue-600">Open-Source Projects</h2>
       <p>
         Below is a selected set of projects that I contributed to the community.
@@ -41,16 +41,38 @@ export default function Projects() {
         </div>
       </div>
 
-      <a
-        href="https://www.icmega.co.il/rani/ecom/"
-        className="decoration-transparent"
-      >
-        <div className="p">
-          (Not open-source)
-          <h4>ecommerce shop</h4>
-          <p>A fully functional ecommerce shop.</p>
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            {" "}
+            <a
+              href="https://www.icmega.co.il/rani/ecom/"
+              className="decoration-transparent"
+            >
+              <div className="p">
+                (Not open-source)
+                <h4>ecommerce shop</h4>
+                <p>A fully functional ecommerce shop.</p>
+              </div>
+            </a>
+          </div>
+          <div className="col">
+            {" "}
+            <a
+              href="https://github.com/RaniGiterman/giterman"
+              className="decoration-transparent"
+            >
+              <div className="p">
+                <h4>giterman</h4>
+                <p>
+                  A NPM package which provides a very simple HTML template
+                  engine
+                </p>
+              </div>
+            </a>
+          </div>
         </div>
-      </a>
+      </div>
 
       <br></br>
       <h5 className="m text-blue-600">
@@ -60,8 +82,9 @@ export default function Projects() {
       </h5>
       <p>
         The above manipulations NPM package was built fully using JS. As of this
-        writing, the package gained 377 downloads.
+        writing, the package gained a total of 1,118 downloads.
       </p>
+
       <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/chess">chess</a>
       </h5>
@@ -74,19 +97,32 @@ export default function Projects() {
         </a>{" "}
         position.
       </p>
+
       <h5 className="m text-blue-600">
         <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
       </h5>
       <p>
         The above ecommerce shop is being built using React.js and TailwindCSS
         for the frontend, and Node.js + Express, PostgreSQL and Redis for the
-        backend. It is by far my most impressive project.
+        backend. It is by far my most impressive project. I managed to
+        data-scrape websites, grab infomation about items in their shop and
+        present them on my own. Ofcourse, none of the items are actually for
+        sale! it is only a demo project.
+      </p>
+      <br></br>
+
+      <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/giterman">giterman</a>
+      </h5>
+      <p>
+        The above "giterman" NPM package was built fully using JS. As of this
+        writing, the package gained a total of 651 downloads.
       </p>
       <br></br>
       <p>
         As of today, I've developed various projects, such as expanding a To-Do
         List project so it'll save each user's notes and their data, an online
-        (messages delievring at real-time) chat, a complete Tinder clone, a
+        (messages delievring at real-time) chat, a complete Tinder clone, an
         online pong game and more...
       </p>
     </div>

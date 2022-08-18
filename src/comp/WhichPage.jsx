@@ -19,7 +19,7 @@ export default function WhichPage({ page }) {
           <Projects /> <End />
         </div>
       );
-    case "Tech Stacks":
+    case "Tech":
       return (
         <div>
           <Tech_Stacks /> <End />

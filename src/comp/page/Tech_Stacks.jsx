@@ -28,12 +28,32 @@ export default function Tech_Stacks() {
           </div>
         </div>
       </div>
+
+      <div className="container-fluid text-center">
+        <div className="row">
+          <div className="col"></div>
+          <div className="col">
+            <h2 className="text-blue-600">Extra</h2>
+            <ul className="-ml-4">
+              <li className="m">Rust</li>
+              <li className="m">Java</li>
+            </ul>
+          </div>
+          <div className="col"></div>
+        </div>
+      </div>
+
       <h2 className="text-blue-600">Personal Preference</h2>
       <p>
         After a while of playing around with different technologies, I decided
-        to settle down on React as my main frontend web framework. My go-to
-        backend decision was Node.js as I loved the idea of having the same
-        language in both the frontend and backend.
+        to settle down on vanilla HTML. I came to the conclusion that I cannot
+        base my entire career on frameworks that might deprecate out of
+        no-where, or even worse, hide malicious code in a new update. Besides
+        that, web-frameworks tend to push updates without thinking too much
+        about backwards compatibility, which is one of the most important
+        aspects for maintaining a project. My go-to backend decision was Node.js
+        as I loved the idea of having the same language in both the frontend and
+        backend.
       </p>
     </div>
   );

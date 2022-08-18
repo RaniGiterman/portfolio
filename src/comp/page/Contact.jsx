@@ -1,12 +1,18 @@
 import React from "react";
 
 export default function Contact() {
+  function mail() {
+    window.location.href = "mailto:rani.giterman10@gmail.com";
+  }
+
   return (
-    <div className="bg-white p-10 b text-xl text-left mb-2 w-full">
+    <div className="bg-white p-10 b text-xl text-left mb-2 ">
       <h2 className="text-blue-600">Contact Me</h2>
       <div>
         The best way to contact me is via email at{" "}
-        <div className="e">rani.giterman10@gmail.com</div>
+        <div className="e cursor-pointer" onClick={mail}>
+          rani.giterman10@gmail.com
+        </div>
       </div>
       <br />
       <h3 className="text-blue-600">Media</h3>
@@ -32,9 +38,6 @@ export default function Contact() {
           <a href="https://link.clashroyale.com/invite/friend/en?tag=J0CJJ02Y0&token=z9tyxnze&platform=iOS">
             Clash Royale
           </a>
-        </li>
-        <li className="m">
-          Discord - <span className="e">RaniGiterman#7988</span>
         </li>
       </ul>
     </div>

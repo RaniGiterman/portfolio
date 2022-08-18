@@ -9,9 +9,11 @@ let lastElem;
 function App() {
   let [page, setPage] = useState("Home");
   let home = useRef();
+  let pageParent = useRef();
 
   function switchPage(elem, newPage) {
-    setPage(newPage);
+    handleAnimation(newPage);
+
     if (lastElem == elem) return;
     elem.classList.add("scale-110");
     elem.classList.add("-translate-y-1");
@@ -30,6 +32,33 @@ function App() {
     }
     lastElem = elem;
   }
+
+  function handleAnimation(newPage) {
+    disappear();
+    setTimeout(() => {
+      setPage(newPage);
+      appear();
+    }, 100);
+  }
+
+  function disappear() {
+    let count = 1;
+    let x = setInterval(() => {
+      if (count <= 0.1) return clearInterval(x);
+      count -= 0.1;
+      pageParent.current.style.opacity = count;
+    }, 10);
+  }
+
+  function appear(params) {
+    let count = 0.1;
+    let x = setInterval(() => {
+      if (count >= 1) return clearInterval(x);
+      count += 0.1;
+      pageParent.current.style.opacity = count;
+    }, 10);
+  }
+
   return (
     <div>
       <link
@@ -44,7 +73,7 @@ function App() {
         crossOrigin="anonymous"
       ></script>
 
-      <div className="container-fluid text-center cool ">
+      <div className="container-fluid text-center cool">
         <div className="row">
           <div className="col-xxl-3"></div>
           <div className="col-xxl-6 -ml-4 relative f2">
@@ -53,7 +82,7 @@ function App() {
               <Navbar switchPage={switchPage} home={home} />
             </div>
 
-            <div className="absolute top-48 sm:top-40 ml-2.5">
+            <div className="absolute sm:top-40 top-48 ml-2.5" ref={pageParent}>
               <WhichPage page={page} />
             </div>
             {/* <div className="fixed bottom-0 left-0 right-0">
