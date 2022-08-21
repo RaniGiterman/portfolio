@@ -34,7 +34,7 @@ export default function Tech_Stacks() {
           <div className="col"></div>
           <div className="col">
             <h2 className="text-blue-600">Extra</h2>
-            <ul className="-ml-4">
+            <ul>
               <li className="m">Rust</li>
               <li className="m">Java</li>
             </ul>

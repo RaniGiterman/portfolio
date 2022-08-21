@@ -46,13 +46,15 @@ export default function Projects() {
           <div className="col">
             {" "}
             <a
-              href="https://www.icmega.co.il/rani/ecom/"
+              href="https://github.com/RaniGiterman/WarGraph"
               className="decoration-transparent"
             >
               <div className="p">
-                (Not open-source)
-                <h4>ecommerce shop</h4>
-                <p>A fully functional ecommerce shop.</p>
+                <h4>WarGraph</h4>
+                <p>
+                  A game which lets you use mathematical functions in order to
+                  "hit" targets.
+                </p>
               </div>
             </a>
           </div>
@@ -74,6 +76,24 @@ export default function Projects() {
         </div>
       </div>
 
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            {" "}
+            <a
+              href="https://www.icmega.co.il/rani/ecom/"
+              className="decoration-transparent"
+            >
+              <div className="p">
+                (Not open-source)
+                <h4>ecommerce shop</h4>
+                <p>A fully functional ecommerce shop.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
       <br></br>
       <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/manipulations">
@@ -81,8 +101,8 @@ export default function Projects() {
         </a>
       </h5>
       <p>
-        The above manipulations NPM package was built fully using JS. As of this
-        writing, the package gained a total of 1,118 downloads.
+        The above NPM package "manipulations" was built fully using JS. As of
+        this writing, the package gained a total of 1,118 downloads.
       </p>
 
       <h5 className="m text-blue-600">
@@ -99,6 +119,23 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/giterman">giterman</a>
+      </h5>
+      <p>
+        The above NPM package "giterman" was built fully using JS. As of this
+        writing, the package gained a total of 651 downloads.
+      </p>
+
+      <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/WarGraph">WarGraph</a>
+      </h5>
+      <p>
+        The above mathematical game "WarGraph" was built built using JS, HTML
+        and TailwindCSS. The game is being hosted{" "}
+        <a href="https://wargraphjs.vercel.app/src/index.html">here</a>.
+      </p>
+
+      <h5 className="m text-blue-600">
         <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
       </h5>
       <p>
@@ -110,20 +147,11 @@ export default function Projects() {
         sale! it is only a demo project.
       </p>
       <br></br>
-
-      <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/giterman">giterman</a>
-      </h5>
-      <p>
-        The above "giterman" NPM package was built fully using JS. As of this
-        writing, the package gained a total of 651 downloads.
-      </p>
-      <br></br>
       <p>
         As of today, I've developed various projects, such as expanding a To-Do
         List project so it'll save each user's notes and their data, an online
         (messages delievring at real-time) chat, a complete Tinder clone, an
-        online pong game and more...
+        online pong game, a recipe app for my mom and more...
       </p>
     </div>
   );
