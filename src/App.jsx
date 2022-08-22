@@ -1,4 +1,5 @@
-import { useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
+import { Helmet } from "react-helmet";
 import "./index.css";
 import Header from "./comp/Header";
 import Navbar from "./comp/Navbar";
@@ -61,6 +62,11 @@ function App() {
 
   return (
     <div>
+      <Helmet>
+        <title>Rani Giterman</title>
+        <link rel="icon" href="/star.ico" />
+      </Helmet>
+
       <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
         rel="stylesheet"
