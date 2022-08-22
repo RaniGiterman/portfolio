@@ -24,6 +24,7 @@ export default function Tech_Stacks() {
               <li className="m">React.js</li>
               <li className="m">Svelte.js</li>
               <li className="m">TailwindCSS</li>
+              <li className="m">Bootstrap</li>
             </ul>
           </div>
         </div>
