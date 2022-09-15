@@ -51,7 +51,7 @@ function App() {
     }, 10);
   }
 
-  function appear(params) {
+  function appear() {
     let count = 0.1;
     let x = setInterval(() => {
       if (count >= 1) return clearInterval(x);

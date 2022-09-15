@@ -1,4 +1,6 @@
 import React from "react";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import "animate.css/animate.min.css";
 
 export default function Projects() {
   return (
@@ -12,66 +14,35 @@ export default function Projects() {
       <div className="container text-center">
         <div className="row">
           <div className="col">
-            <a
-              href="https://github.com/RaniGiterman/manipulations"
-              className="decoration-transparent"
-            >
-              <div className="p">
-                <h4>manipulations</h4>
-                <p>
-                  A NPM package to make your life as a developer even easier.
-                </p>
-              </div>
-            </a>
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <a
+                href="https://github.com/RaniGiterman/manipulations"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>manipulations</h4>
+                  <p>
+                    A NPM package to make your life as a developer even easier.
+                  </p>
+                </div>
+              </a>
+            </AnimationOnScroll>
           </div>
           <div className="col">
-            <a
-              href="https://github.com/RaniGiterman/chess"
-              className="decoration-transparent"
-            >
-              <div className="p">
-                <h4>chess</h4>
-                <p>
-                  A fairly simple, minimalistic chess game. Supported FEN
-                  notation.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div className="container text-center">
-        <div className="row">
-          <div className="col">
-            {" "}
-            <a
-              href="https://github.com/RaniGiterman/WarGraph"
-              className="decoration-transparent"
-            >
-              <div className="p">
-                <h4>WarGraph</h4>
-                <p>
-                  A game which lets you use mathematical functions in order to
-                  "hit" targets.
-                </p>
-              </div>
-            </a>
-          </div>
-          <div className="col">
-            {" "}
-            <a
-              href="https://github.com/RaniGiterman/giterman"
-              className="decoration-transparent"
-            >
-              <div className="p">
-                <h4>giterman</h4>
-                <p>
-                  A NPM package which provides a very simple HTML template
-                  engine
-                </p>
-              </div>
-            </a>
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <a
+                href="https://github.com/RaniGiterman/chess"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>chess</h4>
+                  <p>
+                    A fairly simple, minimalistic chess game. Supported FEN
+                    notation.
+                  </p>
+                </div>
+              </a>
+            </AnimationOnScroll>
           </div>
         </div>
       </div>
@@ -80,16 +51,57 @@ export default function Projects() {
         <div className="row">
           <div className="col">
             {" "}
-            <a
-              href="https://www.icmega.co.il/rani/ecom/"
-              className="decoration-transparent"
-            >
-              <div className="p">
-                (Not open-source)
-                <h4>ecommerce shop</h4>
-                <p>A fully functional ecommerce shop.</p>
-              </div>
-            </a>
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <a
+                href="https://github.com/RaniGiterman/WarGraph"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>WarGraph</h4>
+                  <p>
+                    A game which lets you use mathematical functions in order to
+                    "hit" targets.
+                  </p>
+                </div>
+              </a>
+            </AnimationOnScroll>
+          </div>
+          <div className="col">
+            {" "}
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <a
+                href="https://github.com/RaniGiterman/giterman"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>giterman</h4>
+                  <p>
+                    A NPM package which provides a very simple HTML template
+                    engine
+                  </p>
+                </div>
+              </a>
+            </AnimationOnScroll>
+          </div>
+        </div>
+      </div>
+
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            {" "}
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <a
+                href="https://www.icmega.co.il/rani/ecom/"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  (Not open-source)
+                  <h4>ecommerce shop</h4>
+                  <p>A fully functional ecommerce shop.</p>
+                </div>
+              </a>
+            </AnimationOnScroll>
           </div>
         </div>
       </div>
