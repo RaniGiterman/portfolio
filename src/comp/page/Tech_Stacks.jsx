@@ -36,8 +36,7 @@ export default function Tech_Stacks() {
           <div className="col">
             <h2 className="text-blue-600">Extra</h2>
             <ul>
-              <li className="m">C</li>
-              <li className="m">C++</li>
+              <li className="m">C/C++</li>
               <li className="m">Java</li>
               <li className="m">Docker</li>
             </ul>
