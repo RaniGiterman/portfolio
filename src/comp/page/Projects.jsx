@@ -7,8 +7,8 @@ export default function Projects() {
     <div className="bg-white p-10 b text-xl text-left mb-2 w-fit">
       <h2 className="text-blue-600">Open-Source Projects</h2>
       <p>
-        Below is a selected set of projects that I contributed to the community.
-        Click to learn more.
+        Below is a selected set of projects that I worked on. Click to learn
+        more.
       </p>
 
       <div className="container text-center">
@@ -53,7 +53,7 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateIn="animate__bounceIn">
               <a
-                href="https://github.com/RaniGiterman/WarGraph"
+                href="https://wargraphjs.vercel.app/src/index.html"
                 className="decoration-transparent"
               >
                 <div className="p">
@@ -77,7 +77,7 @@ export default function Projects() {
                   <h4>giterman</h4>
                   <p>
                     A NPM package which provides a very simple HTML template
-                    engine
+                    engine.
                   </p>
                 </div>
               </a>
@@ -103,6 +103,20 @@ export default function Projects() {
               </a>
             </AnimationOnScroll>
           </div>
+          <div className="col">
+            {" "}
+            <AnimationOnScroll animateIn="animate__bounceIn">
+              <a
+                href="https://jailbreak.vercel.app/"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>JailBreak</h4>
+                  <p>The classic minigame built with PIXI.js.</p>
+                </div>
+              </a>
+            </AnimationOnScroll>
+          </div>
         </div>
       </div>
 
@@ -114,7 +128,7 @@ export default function Projects() {
       </h5>
       <p>
         The above NPM package "manipulations" was built fully using JS. As of
-        this writing, the package gained a total of 1,118 downloads.
+        this writing, the package gained a total of 1,139 downloads.
       </p>
 
       <h5 className="m text-blue-600">
@@ -135,7 +149,7 @@ export default function Projects() {
       </h5>
       <p>
         The above NPM package "giterman" was built fully using JS. As of this
-        writing, the package gained a total of 651 downloads.
+        writing, the package gained a total of 1,292 downloads.
       </p>
 
       <h5 className="m text-blue-600">
@@ -151,12 +165,21 @@ export default function Projects() {
         <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
       </h5>
       <p>
-        The above ecommerce shop is being built using React.js and TailwindCSS
-        for the frontend, and Node.js + Express, PostgreSQL and Redis for the
+        The above ecommerce shop was built using React.js and TailwindCSS for
+        the frontend, and Node.js + Express, PostgreSQL and Redis for the
         backend. It is by far my most impressive project. I managed to
         data-scrape websites, grab infomation about items in their shop and
         present them on my own. Ofcourse, none of the items are actually for
         sale! it is only a demo project.
+      </p>
+
+      <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
+      </h5>
+      <p>
+        The above JailBreak game was built using PIXI.js. I like game
+        development a lot and I'm looking forward for another project such as
+        this one.
       </p>
       <br></br>
       <p>
