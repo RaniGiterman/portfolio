@@ -29,17 +29,16 @@ export default function Projects() {
             </AnimationOnScroll>
           </div>
           <div className="col">
+            {" "}
             <AnimationOnScroll animateIn="animate__bounceIn">
               <a
-                href="https://github.com/RaniGiterman/chess"
+                href="https://www.icmega.co.il/rani/ecom/"
                 className="decoration-transparent"
               >
                 <div className="p">
-                  <h4>chess</h4>
-                  <p>
-                    A fairly simple, minimalistic chess game. Supported FEN
-                    notation.
-                  </p>
+                  (not open-source)
+                  <h4>ecommerce shop</h4>
+                  <p>A fully functional ecommerce shop.</p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -92,13 +91,12 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateIn="animate__bounceIn">
               <a
-                href="https://www.icmega.co.il/rani/ecom/"
+                href="https://tic-tac-toe-rani.vercel.app/"
                 className="decoration-transparent"
               >
                 <div className="p">
-                  (Not open-source)
-                  <h4>ecommerce shop</h4>
-                  <p>A fully functional ecommerce shop.</p>
+                  <h4>Tic Tac Toe</h4>
+                  <p>The classic minigame built with pure JS</p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -132,16 +130,15 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/chess">chess</a>
+        <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
       </h5>
       <p>
-        The above chess game was built using vanilla HTML, CSS and JS. This
-        project is special for me as I'm a great fan of chess. The board
-        supports any{" "}
-        <a href="https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation">
-          FEN
-        </a>{" "}
-        position.
+        The above ecommerce shop was built using React.js and TailwindCSS for
+        the frontend, and Node.js + Express, PostgreSQL and Redis for the
+        backend. It is by far my most impressive project. I managed to
+        data-scrape websites, grab infomation about items in their shop and
+        present them on my own. Ofcourse, none of the items are actually for
+        sale! it is only a demo project.
       </p>
 
       <h5 className="m text-blue-600">
@@ -162,32 +159,25 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
-        <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
+        <a href="https://github.com/RaniGiterman/Tic-Tac-Toe">Tic Tac Toe</a>
       </h5>
       <p>
-        The above ecommerce shop was built using React.js and TailwindCSS for
-        the frontend, and Node.js + Express, PostgreSQL and Redis for the
-        backend. It is by far my most impressive project. I managed to
-        data-scrape websites, grab infomation about items in their shop and
-        present them on my own. Ofcourse, none of the items are actually for
-        sale! it is only a demo project.
+        The above Tic Tac Toe game was built using JS, HTML and CSS. I came up
+        with an algorithm of depth 1 search for the computer to follow after
+        each move. I recommend running the site through a computer, as I didn't
+        bother to make it responsive.
       </p>
+      <br></br>
 
       <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
       </h5>
       <p>
         The above JailBreak game was built using PIXI.js. I like game
-        development a lot and I'm looking forward for another project such as
-        this one.
+        development a lot and I'm looking forward to make another project such
+        as this one in the future.
       </p>
       <br></br>
-      <p>
-        As of today, I've developed various projects, such as expanding a To-Do
-        List project so it'll save each user's notes and their data, an online
-        (messages delievring at real-time) chat, a complete Tinder clone, an
-        online pong game, a recipe app for my mom and more...
-      </p>
     </div>
   );
 }
