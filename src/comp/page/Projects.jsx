@@ -154,8 +154,8 @@ export default function Projects() {
       </h5>
       <p>
         The above mathematical game "WarGraph" was built built using JS, HTML
-        and TailwindCSS. The game is being hosted{" "}
-        <a href="https://wargraphjs.vercel.app/src/index.html">here</a>.
+        and TailwindCSS. Enter different mathematical functions in order to hit
+        the targets.
       </p>
 
       <h5 className="m text-blue-600">
