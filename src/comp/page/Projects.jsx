@@ -32,13 +32,13 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateIn="animate__bounceIn">
               <a
-                href="https://www.icmega.co.il/rani/ecom/"
+                href="https://wargraphjs.vercel.app/src/index.html"
                 className="decoration-transparent"
               >
                 <div className="p">
-                  (not open-source)
-                  <h4>ecommerce shop</h4>
-                  <p>A fully functional ecommerce shop.</p>
+                  <h4>WarGraph</h4>
+                  <p>Use mathematical functions in order to hit targets.</p>
+                  <br />
                 </div>
               </a>
             </AnimationOnScroll>
@@ -52,15 +52,14 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateIn="animate__bounceIn">
               <a
-                href="https://wargraphjs.vercel.app/src/index.html"
+                href="https://www.icmega.co.il/rani/ecom/"
                 className="decoration-transparent"
               >
                 <div className="p">
-                  <h4>WarGraph</h4>
-                  <p>
-                    A game which lets you use mathematical functions in order to
-                    "hit" targets.
-                  </p>
+                  (not open-source)
+                  <h4>ecommerce shop</h4>
+                  <p>A fully functional ecommerce shop.</p>
+                  <br />
                 </div>
               </a>
             </AnimationOnScroll>
@@ -130,15 +129,12 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
-        <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
+        <a href="https://github.com/RaniGiterman/WarGraph">WarGraph</a>
       </h5>
       <p>
-        The above ecommerce shop was built using React.js and TailwindCSS for
-        the frontend, and Node.js + Express, PostgreSQL and Redis for the
-        backend. It is by far my most impressive project. I managed to
-        data-scrape websites, grab infomation about items in their shop and
-        present them on my own. Ofcourse, none of the items are actually for
-        sale! it is only a demo project.
+        The above mathematical game "WarGraph" was built built using JS, HTML
+        and TailwindCSS. Enter different mathematical functions in order to hit
+        the targets.
       </p>
 
       <h5 className="m text-blue-600">
@@ -150,12 +146,15 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/WarGraph">WarGraph</a>
+        <a href="https://www.icmega.co.il/rani/ecom/">ecommerce shop</a>
       </h5>
       <p>
-        The above mathematical game "WarGraph" was built built using JS, HTML
-        and TailwindCSS. Enter different mathematical functions in order to hit
-        the targets.
+        The above ecommerce shop was built using React.js and TailwindCSS for
+        the frontend, and Node.js + Express, PostgreSQL and Redis for the
+        backend. It is by far my most impressive project. I managed to
+        data-scrape websites, grab infomation about items in their shop and
+        present them on my own. Ofcourse, none of the items are actually for
+        sale! it is only a demo project.
       </p>
 
       <h5 className="m text-blue-600">
