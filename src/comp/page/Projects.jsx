@@ -14,7 +14,7 @@ export default function Projects() {
       <div className="container text-center">
         <div className="row">
           <div className="col">
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://github.com/RaniGiterman/manipulations"
                 className="decoration-transparent"
@@ -30,7 +30,7 @@ export default function Projects() {
           </div>
           <div className="col">
             {" "}
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://wargraphjs.vercel.app/src/index.html"
                 className="decoration-transparent"
@@ -50,7 +50,7 @@ export default function Projects() {
         <div className="row">
           <div className="col">
             {" "}
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://www.icmega.co.il/rani/ecom/"
                 className="decoration-transparent"
@@ -59,14 +59,13 @@ export default function Projects() {
                   (not open-source)
                   <h4>ecommerce shop</h4>
                   <p>A fully functional ecommerce shop.</p>
-                  <br />
                 </div>
               </a>
             </AnimationOnScroll>
           </div>
           <div className="col">
             {" "}
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://github.com/RaniGiterman/giterman"
                 className="decoration-transparent"
@@ -88,7 +87,7 @@ export default function Projects() {
         <div className="row">
           <div className="col">
             {" "}
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://tic-tac-toe-rani.vercel.app/"
                 className="decoration-transparent"
@@ -102,7 +101,7 @@ export default function Projects() {
           </div>
           <div className="col">
             {" "}
-            <AnimationOnScroll animateIn="animate__bounceIn">
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://jailbreak.vercel.app/"
                 className="decoration-transparent"
@@ -117,7 +116,66 @@ export default function Projects() {
         </div>
       </div>
 
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            {" "}
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
+              <a
+                href="https://ray-traces.vercel.app/"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>Ray Traces</h4>
+                  <p>
+                    Hover your mouse for a cool ray tracing effect made with
+                    PIXI.js.
+                  </p>
+                </div>
+              </a>
+            </AnimationOnScroll>
+          </div>
+          <div className="col">
+            {" "}
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
+              <a
+                href="https://ranibird.vercel.app/"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>Flappy Bird</h4>
+                  <p>
+                    The classic minigame built with PIXI.js. Tap the space-bar
+                    to jump.
+                  </p>
+                </div>
+              </a>
+            </AnimationOnScroll>
+          </div>
+        </div>
+      </div>
+
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+            {" "}
+            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
+              <a
+                href="https://www.npmjs.com/package/argee"
+                className="decoration-transparent"
+              >
+                <div className="p">
+                  <h4>rg</h4>
+                  <p>A NPM package built for compiling rg code.</p>
+                </div>
+              </a>
+            </AnimationOnScroll>
+          </div>
+        </div>
+      </div>
+
       <br></br>
+
       <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/manipulations">
           manipulations
@@ -158,6 +216,16 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
+      </h5>
+      <p>
+        The above JailBreak game was built using PIXI.js. I like game
+        development a lot and I'm looking forward to make another project such
+        as this one in the future.
+      </p>
+      <br></br>
+
+      <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/Tic-Tac-Toe">Tic Tac Toe</a>
       </h5>
       <p>
@@ -169,12 +237,32 @@ export default function Projects() {
       <br></br>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
+        <a href="https://github.com/RaniGiterman/ray_traces">Ray Tracing</a>
       </h5>
       <p>
-        The above JailBreak game was built using PIXI.js. I like game
-        development a lot and I'm looking forward to make another project such
-        as this one in the future.
+        The above Ray Tracing effect was made using PIXI.js and JS. I used basic
+        maths I learned in school in order to find each of the linear equations
+        in 360 degrees of the mouse's X and Y, on every mouse-move.
+      </p>
+      <br></br>
+
+      <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/flappy_bird">Flappy Bird</a>
+      </h5>
+      <p>
+        The above flappy bird game was built using PIXI.js and JS. Me and my
+        brother implemented simple physics and collision one afternoon, and
+        that's the result!
+      </p>
+      <br></br>
+
+      <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/rg">rg</a>
+      </h5>
+      <p>
+        rg is a programming language I built and designed. The interpreter is
+        written in Javascript, which might make it the slowest programming
+        language in existense.
       </p>
       <br></br>
     </div>
