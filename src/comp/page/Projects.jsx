@@ -32,13 +32,15 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
-                href="https://wargraphjs.vercel.app/src/index.html"
+                href="https://github.com/RaniGiterman/giterman"
                 className="decoration-transparent"
               >
                 <div className="p">
-                  <h4>WarGraph</h4>
-                  <p>Use mathematical functions in order to hit targets.</p>
-                  <br />
+                  <h4>giterman</h4>
+                  <p>
+                    A NPM package which provides a very simple HTML template
+                    engine.
+                  </p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -67,15 +69,12 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
-                href="https://github.com/RaniGiterman/giterman"
+                href="https://wargraphjs.vercel.app/src/index.html"
                 className="decoration-transparent"
               >
                 <div className="p">
-                  <h4>giterman</h4>
-                  <p>
-                    A NPM package which provides a very simple HTML template
-                    engine.
-                  </p>
+                  <h4>WarGraph</h4>
+                  <p>Use mathematical functions in order to hit targets.</p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -187,20 +186,20 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/giterman">giterman</a>
+      </h5>
+      <p>
+        The above NPM package "giterman" was built fully using JS. As of this
+        writing, the package gained a total of 1,292 downloads.
+      </p>
+
+      <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/WarGraph">WarGraph</a>
       </h5>
       <p>
         The above mathematical game "WarGraph" was built built using JS, HTML
         and TailwindCSS. Enter different mathematical functions in order to hit
         the targets.
-      </p>
-
-      <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/giterman">giterman</a>
-      </h5>
-      <p>
-        The above NPM package "giterman" was built fully using JS. As of this
-        writing, the package gained a total of 1,292 downloads.
       </p>
 
       <h5 className="m text-blue-600">
@@ -216,16 +215,6 @@ export default function Projects() {
       </p>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
-      </h5>
-      <p>
-        The above JailBreak game was built using PIXI.js. I like game
-        development a lot and I'm looking forward to make another project such
-        as this one in the future.
-      </p>
-      <br></br>
-
-      <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/Tic-Tac-Toe">Tic Tac Toe</a>
       </h5>
       <p>
@@ -237,12 +226,12 @@ export default function Projects() {
       <br></br>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/ray_traces">Ray Tracing</a>
+        <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
       </h5>
       <p>
-        The above Ray Tracing effect was made using PIXI.js and JS. I used basic
-        maths I learned in school in order to find each of the linear equations
-        in 360 degrees of the mouse's X and Y, on every mouse-move.
+        The above JailBreak game was built using PIXI.js. I like game
+        development a lot and I'm looking forward to make another project such
+        as this one in the future.
       </p>
       <br></br>
 
@@ -253,6 +242,16 @@ export default function Projects() {
         The above flappy bird game was built using PIXI.js and JS. Me and my
         brother implemented simple physics and collision one afternoon, and
         that's the result!
+      </p>
+      <br></br>
+
+      <h5 className="m text-blue-600">
+        <a href="https://github.com/RaniGiterman/ray_traces">Ray Tracing</a>
+      </h5>
+      <p>
+        The above Ray Tracing effect was made using PIXI.js and JS. I used basic
+        maths I learned in school in order to find each of the linear equations
+        in 360 degrees of the mouse's X and Y, on every mouse-move.
       </p>
       <br></br>
 
