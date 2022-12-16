@@ -5,7 +5,7 @@ import "animate.css/animate.min.css";
 export default function Projects() {
   return (
     <div className="bg-white p-10 b text-xl text-left mb-2 w-fit">
-      <h2 className="text-blue-600">Open-Source Projects</h2>
+      <h2 className="text-blue-600">My Projects</h2>
       <p>
         Below is a selected set of projects that I worked on. Click to learn
         more.
@@ -58,7 +58,6 @@ export default function Projects() {
                 className="decoration-transparent"
               >
                 <div className="p">
-                  (not open-source)
                   <h4>ecommerce shop</h4>
                   <p>A fully functional ecommerce shop.</p>
                 </div>
