@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tech_Stacks() {
   return (
-    <div className="bg-white p-10 b text-xl text-left w-full">
+    <div className="bg-cool p-10 b text-xl text-left w-full">
       <div className="container-fluid text-center">
         <div className="row">
           <div className="col">

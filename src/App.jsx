@@ -4,13 +4,15 @@ import "./index.css";
 import Header from "./comp/Header";
 import Navbar from "./comp/Navbar";
 import WhichPage from "./comp/WhichPage";
-import End from "./comp/End";
+import { FaArrowCircleUp } from "react-icons/fa";
+import ScrollToTop from "react-scroll-to-top";
 
 let lastElem;
 function App() {
   let [page, setPage] = useState("Home");
   let home = useRef();
   let pageParent = useRef();
+  let blob = useRef();
 
   function switchPage(elem, newPage) {
     handleAnimation(newPage);
@@ -60,8 +62,34 @@ function App() {
     }, 10);
   }
 
+  /* -- mouse follow effect -- */
+
+  // window.addEventListener("scroll", () => {
+  //   blob.current.animate(
+  //     {
+  //       left: `${window.screenX}px`,
+  //       top: `${window.screenY}px`,
+  //     },
+  //     { duration: 100, fill: "forwards" }
+  //   );
+  // });
+
+  document.onmousemove = (e) => {
+    const { clientX, clientY } = e;
+    console.log(clientX, clientY);
+    blob.current.animate(
+      {
+        left: `${clientX}px`,
+        top: `${clientY}px`,
+      },
+      { duration: 3000, fill: "forwards" }
+    );
+    // blob.current.style.left = clientX + "px";
+    // blob.current.style.top = clientY + "px";
+  };
+
   return (
-    <div>
+    <div className="root">
       <Helmet>
         <title>Rani Giterman</title>
         <link rel="icon" href="/star.ico" />
@@ -78,6 +106,8 @@ function App() {
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossOrigin="anonymous"
       ></script>
+
+      <div ref={blob} id="blob"></div>
 
       <div className="container-fluid text-center cool">
         <div className="row">
@@ -98,6 +128,14 @@ function App() {
           <div className="col-xxl-3"></div>
         </div>
       </div>
+
+      {/* <button id="scrollToTop">
+        <FaArrowCircleUp
+          onClick={scrollToTop}
+          style={{ display: visible ? "inline" : "none" }}
+          className="icon-position icon-style"
+        />
+      </button> */}
     </div>
   );
 }

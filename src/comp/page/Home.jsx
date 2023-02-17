@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="bg-white p-10 b text-left">
+    <div className="bg-cool p-10 b text-left">
       <h2 className="text-blue-600">About Me</h2>
       <br></br>
       <img src="rani.jpg" alt="Me" className="w-full rounded-sm h-full"></img>

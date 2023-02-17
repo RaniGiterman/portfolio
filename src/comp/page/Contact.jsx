@@ -6,7 +6,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="bg-white p-10 b text-xl text-left mb-2 ">
+    <div className="bg-cool p-10 b text-xl text-left mb-2 ">
       <h2 className="text-blue-600">Contact Me</h2>
       <div>
         The best way to contact me is via email at{" "}

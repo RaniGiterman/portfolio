@@ -7,7 +7,7 @@ export default function Header() {
       <div className="float-right ml-12">
         <img src="Israel.png" className="w-24" alt="Israel Flag" />
       </div>
-      <div className="absolute left-2 top-28 sm:top-14 text-left text-2xl g">
+      <div className="absolute left-2 top-28 sm:top-14 text-left text-2xl">
         Aspiring Engineer.
       </div>
     </h1>

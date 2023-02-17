@@ -4,7 +4,7 @@ import "animate.css/animate.min.css";
 
 export default function Projects() {
   return (
-    <div className="bg-white p-10 b text-xl text-left mb-2 w-fit">
+    <div className="bg-cool p-10 b text-xl text-left mb-2 w-fit">
       <h2 className="text-blue-600">My Projects</h2>
       <p>
         Below is a selected set of projects that I worked on. Click to learn
@@ -17,11 +17,11 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://github.com/RaniGiterman/manipulations"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>manipulations</h4>
-                  <p>
+                  <h4 className="text-cool">manipulations</h4>
+                  <p className="text-cool">
                     A NPM package to make your life as a developer even easier.
                   </p>
                 </div>
@@ -33,11 +33,11 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://github.com/RaniGiterman/giterman"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>giterman</h4>
-                  <p>
+                  <h4 className="text-cool">giterman</h4>
+                  <p className="text-cool">
                     A NPM package which provides a very simple HTML template
                     engine.
                   </p>
@@ -55,11 +55,13 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://www.icmega.co.il/rani/ecom/"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>ecommerce shop</h4>
-                  <p>A fully functional ecommerce shop.</p>
+                  <h4 className="text-cool">ecommerce shop</h4>
+                  <p className="text-cool">
+                    A fully functional ecommerce shop.
+                  </p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -69,11 +71,13 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://wargraphjs.vercel.app/src/index.html"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>WarGraph</h4>
-                  <p>Use mathematical functions in order to hit targets.</p>
+                  <h4 className="text-cool">WarGraph</h4>
+                  <p className="text-cool">
+                    Use mathematical functions in order to hit targets.
+                  </p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -88,11 +92,13 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://tic-tac-toe-rani.vercel.app/"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>Tic Tac Toe</h4>
-                  <p>The classic minigame built with pure JS</p>
+                  <h4 className="text-cool">Tic Tac Toe</h4>
+                  <p className="text-cool">
+                    The classic minigame built with pure JS
+                  </p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -102,11 +108,13 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://jailbreak.vercel.app/"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>JailBreak</h4>
-                  <p>The classic minigame built with PIXI.js.</p>
+                  <h4 className="text-cool">JailBreak</h4>
+                  <p className="text-cool">
+                    The classic minigame built with PIXI.js.
+                  </p>
                 </div>
               </a>
             </AnimationOnScroll>
@@ -121,11 +129,11 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://ray-traces.vercel.app/"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>Ray Traces</h4>
-                  <p>
+                  <h4 className="text-cool">Ray Traces</h4>
+                  <p className="text-cool">
                     Hover your mouse for a cool ray tracing effect made with
                     PIXI.js.
                   </p>
@@ -138,11 +146,11 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://ranibird.vercel.app/"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>Flappy Bird</h4>
-                  <p>
+                  <h4 className="text-cool">Flappy Bird</h4>
+                  <p className="text-cool">
                     The classic minigame built with PIXI.js. Tap the space-bar
                     to jump.
                   </p>
@@ -160,11 +168,13 @@ export default function Projects() {
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
                 href="https://www.npmjs.com/package/argee"
-                className="decoration-transparent"
+                className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4>rg</h4>
-                  <p>A NPM package built for compiling rg code.</p>
+                  <h4 className="text-cool">rg</h4>
+                  <p className="text-cool">
+                    A NPM package built for compiling rg code.
+                  </p>
                 </div>
               </a>
             </AnimationOnScroll>

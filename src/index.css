@@ -1,9 +1,9 @@
-html {
-  background-color: #eee;
+html, body {
+  background-color: #1D1D1F;
 }
 
 .cool {
-  background-color: #eee;
+  background-color: #1D1D1F;
 	padding-top: 30px;
 }
 
@@ -21,12 +21,10 @@ html {
   src: url("./mainFont.ttf");
 }
 
-.g {
-  color: #666;
-}
 
 .b {
-  border: 1px solid #ccc;
+  box-shadow: 0 0 5px 5px #2563eb;
+
 }
 
 .e {
@@ -44,11 +42,12 @@ html {
  .m::before {
   margin-right: .5rem;
   content: "#";
-  color: black;
+  color: #ccc;
  }
   
 .r {
   transform:rotate(90deg);
+  
 }
 
 .p {
@@ -61,12 +60,72 @@ html {
 	margin-top: 2em;
 	text-align: center;
 	color: #245;
-	background-color: #e0f0ff44;
+	background-color: #cfcfcf;
+  border-radius: 10px;
 }
 
 .gray {
   filter: grayscale(80%);
 }
+
+.bg-cool {
+  background-color: #1D1D1F;
+}
+
+.text-cool {
+  color: #1D1D1F;
+}
+p, div, h1, h2, h3, h4, h5, span{
+  color: #ccc;
+}
+
+.proj:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	height: 100%;
+	background: rgba(37, 99, 235, 0.25);
+	transition: all 2s ease;
+  border-radius: 10px;
+}
+.proj:hover:before {
+	width: 100%;
+  color: white
+}
+
+
+#blob {
+  background-color: white;
+  height: 50vh;
+  aspect-ratio: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  background: #2563eb;
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+  filter: blur(150px);
+}
+
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  
+  50% {
+    scale: 1 1.5;
+  }
+  
+  to {
+    rotate: 360deg;
+  }
+}
+
 
 @tailwind base;
 @tailwind components;
