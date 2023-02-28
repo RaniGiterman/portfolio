@@ -20,7 +20,8 @@ export default function Home() {
         </a>
         . I began my journey of coding around age 9, although I consider I
         really got into it at age 14. In my free time I like to enrich my
-        knowledge in the computer-related world, play video-games, grind{" "}
+        knowledge in the computer-related world, play video-games and chess,
+        grind{" "}
         <a
           className="text-blue-600 decoration-transparent"
           href="https://leetcode.com/RaniGiterman/"

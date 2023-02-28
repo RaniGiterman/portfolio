@@ -13,7 +13,9 @@ export default function Tech_Stacks() {
               <li className="m">MSSQL</li>
               <li className="m">PostgreSQL</li>
               <li className="m">Redis</li>
-              <li className="m">Go</li>
+              <li className="m">Golang</li>
+              <li className="m">Prometheus</li>
+              <li className="m">Grafana</li>
             </ul>
           </div>
           <div className="col">
@@ -50,12 +52,10 @@ export default function Tech_Stacks() {
 
       <h2 className="text-blue-600">Personal Preference</h2>
       <p>
-        After a while of playing around with different web technologies, I
-        decided to settle down on vanilla HTML. I came to the conclusion that I
-        cannot base my entire career on frameworks and packages that might
-        deprecate out of no-where, or even worse, hide malicious code in a new
-        update. My go-to backend decision was Node.js, as I loved the idea of
-        having the same language in both the frontend and backend.
+        I believe that it's important to pick the right tool for the job, so I
+        like to expand my views and learn about different packages, frameworks,
+        and langauges in order to be able to use the most suited one when it's
+        needed.
       </p>
     </div>
   );
