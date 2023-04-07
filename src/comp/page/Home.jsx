@@ -10,8 +10,8 @@ export default function Home() {
         Hello, my name is Rani Giterman, and I am a sophomore studying at Ironi
         D Highschool. I'm growing up in a family of tremendously skilled
         programmers and know that being some type of an engineer is my calling.
-        My passion for computers began at a young age as I watched my siblings
-        playing video games on the{" "}
+        My passion for computers and technology began at a young age as I
+        watched my siblings playing video games on the{" "}
         <a
           className="text-blue-600 decoration-transparent"
           href="https://en.wikipedia.org/wiki/Wii"

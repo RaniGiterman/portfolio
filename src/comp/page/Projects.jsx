@@ -128,14 +128,13 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
-                href="https://ray-traces.vercel.app/"
+                href="https://giterman-gambit.vercel.app/"
                 className="decoration-transparent proj"
               >
                 <div className="p">
-                  <h4 className="text-cool">Ray Traces</h4>
+                  <h4 className="text-cool">Chess</h4>
                   <p className="text-cool">
-                    Hover your mouse for a cool ray tracing effect made with
-                    PIXI.js.
+                    A fully functional chess game, with a couple of twists.
                   </p>
                 </div>
               </a>
@@ -217,10 +216,10 @@ export default function Projects() {
       <p>
         The above ecommerce shop was built using React.js and TailwindCSS for
         the frontend, and Node.js + Express, PostgreSQL and Redis for the
-        backend. It is by far my most impressive project. I managed to
-        data-scrape websites, grab infomation about items in their shop and
-        present them on my own. Ofcourse, none of the items are actually for
-        sale! it is only a demo project.
+        backend. I managed to data-scrape other ecommerce websites, grab
+        infomation about items in their shop and present them on my own.
+        Ofcourse, none of the items are actually for sale! it's only a demo
+        project.
       </p>
 
       <h5 className="m text-blue-600">
@@ -229,8 +228,7 @@ export default function Projects() {
       <p>
         The above Tic Tac Toe game was built using JS, HTML and CSS. I came up
         with an algorithm of depth 1 search for the computer to follow after
-        each move. I recommend running the site through a computer, as I didn't
-        bother to make it responsive.
+        each move.
       </p>
       <br></br>
 
@@ -255,12 +253,13 @@ export default function Projects() {
       <br></br>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/ray_traces">Ray Tracing</a>
+        <a href="https://github.com/RaniGiterman/chess">Chess</a>
       </h5>
       <p>
-        The above Ray Tracing effect was made using PIXI.js and JS. I used basic
-        maths I learned in school in order to find each of the linear equations
-        in 360 degrees of the mouse's X and Y, on every mouse-move.
+        The above chess game was written in pure JS, HTML and css. I removed
+        castling, en-passant, and the awareness of a check. It's one of my
+        favourite web projects so far, and I'm looking forward to the next
+        chapter of it: Chess AI.
       </p>
       <br></br>
 

@@ -54,7 +54,7 @@ export default function Tech_Stacks() {
       <p>
         I believe that it's important to pick the right tool for the job, so I
         like to expand my views and learn about different packages, frameworks,
-        and langauges in order to be able to use the most suited one when it's
+        and languages in order to be able to use the most suited one when it's
         needed.
       </p>
     </div>
