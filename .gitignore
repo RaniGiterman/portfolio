@@ -24,3 +24,5 @@ yarn-error.log*run.md
 
 run.sh
 /run.sh
+ttf/
+fonts/

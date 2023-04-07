@@ -90,6 +90,7 @@ p, div, h1, h2, h3, h4, h5, span{
 	transition: all 2s ease;
   border-radius: 10px;
 }
+
 .proj:hover:before {
 	width: 100%;
   color: white
@@ -106,6 +107,7 @@ p, div, h1, h2, h3, h4, h5, span{
   translate: -50% -50%;
   border-radius: 50%;
   background: #2563eb;
+  /* background: #2563eb; */
   animation: rotate 20s infinite;
   opacity: 0.8;
   filter: blur(150px);
