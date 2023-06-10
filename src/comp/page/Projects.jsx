@@ -7,8 +7,7 @@ export default function Projects() {
     <div className="bg-cool p-10 b text-xl text-left mb-2 w-fit">
       <h2 className="text-blue-600">My Projects</h2>
       <p>
-        Below is a selected set of projects that I worked on. Click to learn
-        more.
+        Below is a selected set of projects that I worked on. Click to see more.
       </p>
 
       <div className="container text-center">
@@ -91,43 +90,6 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
-                href="https://tic-tac-toe-rani.vercel.app/"
-                className="decoration-transparent proj"
-              >
-                <div className="p">
-                  <h4 className="text-cool">Tic Tac Toe</h4>
-                  <p className="text-cool">
-                    The classic minigame built with pure JS
-                  </p>
-                </div>
-              </a>
-            </AnimationOnScroll>
-          </div>
-          <div className="col">
-            {" "}
-            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
-              <a
-                href="https://jailbreak.vercel.app/"
-                className="decoration-transparent proj"
-              >
-                <div className="p">
-                  <h4 className="text-cool">JailBreak</h4>
-                  <p className="text-cool">
-                    The classic minigame built with PIXI.js.
-                  </p>
-                </div>
-              </a>
-            </AnimationOnScroll>
-          </div>
-        </div>
-      </div>
-
-      <div className="container text-center">
-        <div className="row">
-          <div className="col">
-            {" "}
-            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
-              <a
                 href="https://giterman-gambit.vercel.app/"
                 className="decoration-transparent proj"
               >
@@ -144,35 +106,14 @@ export default function Projects() {
             {" "}
             <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
               <a
-                href="https://ranibird.vercel.app/"
-                className="decoration-transparent proj"
-              >
-                <div className="p">
-                  <h4 className="text-cool">Flappy Bird</h4>
-                  <p className="text-cool">
-                    The classic minigame built with PIXI.js. Tap the space-bar
-                    to jump.
-                  </p>
-                </div>
-              </a>
-            </AnimationOnScroll>
-          </div>
-        </div>
-      </div>
-
-      <div className="container text-center">
-        <div className="row">
-          <div className="col">
-            {" "}
-            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
-              <a
                 href="https://www.npmjs.com/package/argee"
                 className="decoration-transparent proj"
               >
                 <div className="p">
                   <h4 className="text-cool">rg</h4>
                   <p className="text-cool">
-                    A NPM package built for compiling rg code.
+                    A NPM package built for compiling rg, my own programming
+                    language
                   </p>
                 </div>
               </a>
@@ -222,7 +163,7 @@ export default function Projects() {
         project.
       </p>
 
-      <h5 className="m text-blue-600">
+      {/* <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/Tic-Tac-Toe">Tic Tac Toe</a>
       </h5>
       <p>
@@ -230,9 +171,9 @@ export default function Projects() {
         with an algorithm of depth 1 search for the computer to follow after
         each move.
       </p>
-      <br></br>
+      <br></br> */}
 
-      <h5 className="m text-blue-600">
+      {/* <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
       </h5>
       <p>
@@ -240,9 +181,9 @@ export default function Projects() {
         development a lot and I'm looking forward to make another project such
         as this one in the future.
       </p>
-      <br></br>
+      <br></br> */}
 
-      <h5 className="m text-blue-600">
+      {/* <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/flappy_bird">Flappy Bird</a>
       </h5>
       <p>
@@ -250,16 +191,15 @@ export default function Projects() {
         brother implemented simple physics and collision one afternoon, and
         that's the result!
       </p>
-      <br></br>
+      <br></br> */}
 
       <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/chess">Chess</a>
       </h5>
       <p>
         The above chess game was written in pure JS, HTML and css. I removed
-        castling, en-passant, and the awareness of a check. It's one of my
-        favourite web projects so far, and I'm looking forward to the next
-        chapter of it: Chess AI.
+        castling, en-passant, and the awareness of a check. I'm looking forward
+        to the next chapter of it: Chess AI.
       </p>
       <br></br>
 

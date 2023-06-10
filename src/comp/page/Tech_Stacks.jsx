@@ -29,6 +29,7 @@ export default function Tech_Stacks() {
               <li className="m">PIXI.js</li>
               <li className="m">TailwindCSS</li>
               <li className="m">Bootstrap</li>
+              <li className="m">Chart.js</li>
             </ul>
           </div>
         </div>
@@ -40,17 +41,18 @@ export default function Tech_Stacks() {
           <div className="col">
             <h2 className="text-blue-600">Other</h2>
             <ul>
-              <li className="m">C/C++</li>
-              <li className="m">Rust</li>
               <li className="m">Java</li>
               <li className="m">Docker</li>
+              <li className="m">gRPC</li>
+              <li className="m">HAProxy</li>
             </ul>
           </div>
           <div className="col"></div>
         </div>
       </div>
 
-      <h2 className="text-blue-600">Personal Preference</h2>
+      {/* <h2 className="text-blue-600">Personal Preference</h2> */}
+      <hr />
       <p>
         I believe that it's important to pick the right tool for the job, so I
         like to expand my views and learn about different packages, frameworks,
