@@ -76,7 +76,6 @@ function App() {
 
   document.onmousemove = (e) => {
     const { clientX, clientY } = e;
-    console.log(clientX, clientY);
     blob.current.animate(
       {
         left: `${clientX}px`,

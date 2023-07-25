@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Tech_Stacks() {
   return (
-    <div className="bg-cool p-10 b text-xl text-left w-full">
+    <div className="bg-cool p-10 b text-xl text-left w-full rounded">
       <div className="container-fluid text-center">
         <div className="row">
           <div className="col">
@@ -16,6 +16,7 @@ export default function Tech_Stacks() {
               <li className="m">Golang</li>
               <li className="m">Prometheus</li>
               <li className="m">Grafana</li>
+              <li className="m">Docker</li>
             </ul>
           </div>
           <div className="col">
@@ -42,8 +43,8 @@ export default function Tech_Stacks() {
             <h2 className="text-blue-600">Other</h2>
             <ul>
               <li className="m">Java</li>
-              <li className="m">Docker</li>
               <li className="m">gRPC</li>
+              <li className="m">C</li>
               <li className="m">HAProxy</li>
             </ul>
           </div>
@@ -54,10 +55,14 @@ export default function Tech_Stacks() {
       {/* <h2 className="text-blue-600">Personal Preference</h2> */}
       <hr />
       <p>
-        I believe that it's important to pick the right tool for the job, so I
+        I go by the saying <i>"pick the right tool for the job"</i>. In that
+        light, I frequently try to expand my views and learn about different
+        packages, frameworks, languages and technologies in order to be able to
+        use the most suited options when they are needed.
+        {/* I believe that it's important to pick the right tool for the job, so I
         like to expand my views and learn about different packages, frameworks,
         and languages in order to be able to use the most suited one when it's
-        needed.
+        needed. */}
       </p>
     </div>
   );

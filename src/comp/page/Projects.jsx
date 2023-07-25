@@ -4,48 +4,12 @@ import "animate.css/animate.min.css";
 
 export default function Projects() {
   return (
-    <div className="bg-cool p-10 b text-xl text-left mb-2 w-fit">
+    <div className="bg-cool p-10 b text-xl text-left mb-2 w-fit rounded">
       <h2 className="text-blue-600">My Projects</h2>
       <p>
-        Below is a selected set of projects that I worked on. Click to see more.
+        Below is a selected set of projects that I worked on before being hired.
+        Click to see more.
       </p>
-
-      <div className="container text-center">
-        <div className="row">
-          <div className="col">
-            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
-              <a
-                href="https://github.com/RaniGiterman/manipulations"
-                className="decoration-transparent proj"
-              >
-                <div className="p">
-                  <h4 className="text-cool">manipulations</h4>
-                  <p className="text-cool">
-                    A NPM package to make your life as a developer even easier.
-                  </p>
-                </div>
-              </a>
-            </AnimationOnScroll>
-          </div>
-          <div className="col">
-            {" "}
-            <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
-              <a
-                href="https://github.com/RaniGiterman/giterman"
-                className="decoration-transparent proj"
-              >
-                <div className="p">
-                  <h4 className="text-cool">giterman</h4>
-                  <p className="text-cool">
-                    A NPM package which provides a very simple HTML template
-                    engine.
-                  </p>
-                </div>
-              </a>
-            </AnimationOnScroll>
-          </div>
-        </div>
-      </div>
 
       <div className="container text-center">
         <div className="row">
@@ -125,30 +89,12 @@ export default function Projects() {
       <br></br>
 
       <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/manipulations">
-          manipulations
-        </a>
-      </h5>
-      <p>
-        The above NPM package "manipulations" was built fully using JS. As of
-        this writing, the package gained a total of 1,139 downloads.
-      </p>
-
-      <h5 className="m text-blue-600">
-        <a href="https://github.com/RaniGiterman/giterman">giterman</a>
-      </h5>
-      <p>
-        The above NPM package "giterman" was built fully using JS. As of this
-        writing, the package gained a total of 1,292 downloads.
-      </p>
-
-      <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/WarGraph">WarGraph</a>
       </h5>
       <p>
-        The above mathematical game "WarGraph" was built built using JS, HTML
-        and TailwindCSS. Enter different mathematical functions in order to hit
-        the targets.
+        The above mathematical game "WarGraph" was built using JS, HTML and
+        TailwindCSS. Enter different mathematical functions in order to hit the
+        targets.
       </p>
 
       <h5 className="m text-blue-600">
@@ -199,7 +145,7 @@ export default function Projects() {
       <p>
         The above chess game was written in pure JS, HTML and css. I removed
         castling, en-passant, and the awareness of a check. I'm looking forward
-        to the next chapter of it: Chess AI.
+        to improving my chess bot.
       </p>
       <br></br>
 
