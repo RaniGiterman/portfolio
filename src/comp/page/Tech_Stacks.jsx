@@ -6,49 +6,42 @@ export default function Tech_Stacks() {
       <div className="container-fluid text-center">
         <div className="row">
           <div className="col">
-            <h2 className="text-blue-600">Backend</h2>
+            <h2 className="text-blue-600">Databases</h2>
             <ul>
-              <li className="m">Node.js</li>
-              <li className="m">Express</li>
               <li className="m">MSSQL</li>
               <li className="m">PostgreSQL</li>
               <li className="m">Redis</li>
-              <li className="m">Golang</li>
-              <li className="m">Prometheus</li>
-              <li className="m">Grafana</li>
-              <li className="m">Docker</li>
             </ul>
           </div>
           <div className="col">
-            <h2 className="text-blue-600">Frontend</h2>
+            <h2 className="text-blue-600">Frameworks</h2>
             <ul>
-              <li className="m">HTML</li>
-              <li className="m">CSS</li>
-              <li className="m">JS</li>
               <li className="m">React.js</li>
               <li className="m">Svelte.js</li>
               <li className="m">PIXI.js</li>
               <li className="m">TailwindCSS</li>
               <li className="m">Bootstrap</li>
               <li className="m">Chart.js</li>
+              <li className="m">Node.js</li>
+              <li className="m">Express</li>
+              <li className="m">GoFiber</li>
+              <li className="m">Prometheus</li>
+              <li className="m">Grafana</li>
+              <li className="m">gRPC</li>
+              <li className="m">Docker</li>
             </ul>
           </div>
-        </div>
-      </div>
-
-      <div className="container-fluid text-center">
-        <div className="row">
-          <div className="col"></div>
           <div className="col">
-            <h2 className="text-blue-600">Other</h2>
+            <h2 className="text-blue-600">Languages</h2>
             <ul>
+              <li className="m">HTML/CSS/JS</li>
+              <li className="m">Golang</li>
+              <li className="m">Python</li>
               <li className="m">Java</li>
-              <li className="m">gRPC</li>
               <li className="m">C</li>
               <li className="m">HAProxy</li>
             </ul>
           </div>
-          <div className="col"></div>
         </div>
       </div>
 

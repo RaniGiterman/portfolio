@@ -11,20 +11,10 @@ export default function Home() {
         Highschool. I began my coding journey at around age 9, although I
         consider I really got into it at 14. I like to enrich my knowledge in
         the computer-related world, play video-games and chess, and answer{" "}
-        <a
-          className="text-blue-600 decoration-transparent"
-          href="https://stackoverflow.com/users/17802928/rani-giterman?tab=profile"
-        >
-          stackoverflow{" "}
-        </a>
-        and{" "}
-        <a
-          className="text-blue-600 decoration-transparent"
-          href="https://leetcode.com/RaniGiterman/"
-        >
-          leetcode
+        <a href="https://stackoverflow.com/users/17802928/rani-giterman?tab=profile">
+          stackoverflow
         </a>{" "}
-        questions.
+        and <a href="https://leetcode.com/RaniGiterman/">leetcode</a> questions.
       </p>
     </div>
   );
