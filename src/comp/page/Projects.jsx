@@ -147,7 +147,7 @@ export default function Projects() {
         castling, en-passant, and the awareness of a check. I'm looking forward
         to improving my chess bot.
       </p>
-      <br></br>
+      {/* <br></br> */}
 
       <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/rg">rg</a>
@@ -157,7 +157,7 @@ export default function Projects() {
         written in Javascript, which might make it the slowest programming
         language in existense.
       </p>
-      <br></br>
+      {/* <br></br> */}
     </div>
   );
 }
