@@ -44,8 +44,11 @@ export default function Tech_Stacks() {
           </div>
         </div>
       </div>
-
       {/* <h2 className="text-blue-600">Personal Preference</h2> */}
+      <br />
+      <p className=" text-sm">
+        operating systems: Windows, MacOS, Pop!_OS (ubuntu linux)
+      </p>
       <hr />
       <p>
         I go by the saying <i>"pick the right tool for the job"</i>. In that

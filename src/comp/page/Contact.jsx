@@ -28,17 +28,17 @@ export default function Contact() {
         <li className="m">
           <a href="https://leetcode.com/RaniGiterman/">LeetCode</a>
         </li>
-        <li className="m">
+        {/* <li className="m">
           <a href="https://www.hackerrank.com/progranner">HackerRank</a>
-        </li>
+        </li> */}
         <li className="m">
           <a href="https://www.instagram.com/gitermanrani/">Instagram</a>
         </li>
-        <li className="m">
+        {/* <li className="m">
           <a href="https://link.clashroyale.com/invite/friend/en?tag=J0CJJ02Y0&token=z9tyxnze&platform=iOS">
             Clash Royale
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
