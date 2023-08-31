@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
   return (
     <div className="bg-cool p-10 b text-left rounded">
-      <img src="rani.jpg" alt="Me" className="w-full rounded-sm h-full"></img>
+      <img src="rani.png" alt="Me" className="w-full rounded-sm h-full"></img>
       <br></br>
       <h2 className="text-blue-600">About Me</h2>
       <p className="text-xl mt-2">
