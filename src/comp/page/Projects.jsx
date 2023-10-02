@@ -1,6 +1,8 @@
 import React from "react";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import "animate.css/animate.min.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 export default function Projects() {
   return (
@@ -8,8 +10,8 @@ export default function Projects() {
       <div className="text-left">
         <h2 className="text-blue-600">My Projects</h2>
         <p>
-          Below is a selected set of projects that I worked on before being
-          hired. Click to see more.
+          The following is a selected set of projects that I worked on before
+          being hired. Click to see more.
         </p>
 
         <div className="container text-center">
@@ -85,7 +87,41 @@ export default function Projects() {
           </div>
         </div>
 
-        <br></br>
+        <hr />
+
+        <h2 className="text-blue-600">Keyboards</h2>
+        <p>
+          I like building and using split ergononic keyboards. Check out some of
+          them below.
+        </p>
+        <Carousel showArrows={true}>
+          <div>
+            <img src="corne.jpg" alt="corne keyboard" />
+            <p className="legend">
+              My first handbuilt keyboard, the Corne keyboard.
+            </p>
+          </div>
+          <div>
+            <img src="dad_corne.jpg" alt="dad's corne keyboard" />
+            <p className="legend">
+              My dad really liked the Corne, so we built another one for him.
+            </p>
+          </div>
+          <div>
+            <img src="ferris.jpg" alt="ferris keyboard" />
+            <p className="legend">
+              That's the revolution of Corne for me, the Ferris Sweep keyboard.
+            </p>
+          </div>
+          <div>
+            <img src="kinesis.jpg" alt="kinesis advantage360 keyboard" />
+            <p className="legend">
+              The Kinesis Advantage360 keyboard is the most comfortable for me.
+            </p>
+          </div>
+        </Carousel>
+
+        {/* <br></br>
 
         <h5 className="m text-blue-600">
           <a href="https://github.com/RaniGiterman/WarGraph">WarGraph</a>
@@ -115,7 +151,7 @@ export default function Projects() {
         with an algorithm of depth 1 search for the computer to follow after
         each move.
       </p>
-      <br></br> */}
+      <br></br>
 
         {/* <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/jailbreak">JailBreak</a>
@@ -125,7 +161,7 @@ export default function Projects() {
         development a lot and I'm looking forward to make another project such
         as this one in the future.
       </p>
-      <br></br> */}
+      <br></br>
 
         {/* <h5 className="m text-blue-600">
         <a href="https://github.com/RaniGiterman/flappy_bird">Flappy Bird</a>
@@ -135,7 +171,7 @@ export default function Projects() {
         brother implemented simple physics and collision one afternoon, and
         that's the result!
       </p>
-      <br></br> */}
+      <br></br>
 
         <h5 className="m text-blue-600">
           <a href="https://github.com/RaniGiterman/chess">Chess</a>
@@ -145,7 +181,7 @@ export default function Projects() {
           castling, en-passant, and the awareness of a check. I'm looking
           forward to improving my chess bot.
         </p>
-        {/* <br></br> */}
+        {/* <br></br>
 
         <h5 className="m text-blue-600">
           <a href="https://github.com/RaniGiterman/rg-playground">rg</a>
@@ -155,7 +191,7 @@ export default function Projects() {
           written in Javascript, which might make it the slowest programming
           language in existense.
         </p>
-        {/* <br></br> */}
+        {/* <br></br>*/}
       </div>{" "}
     </div>
   );

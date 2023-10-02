@@ -11,6 +11,7 @@ export default function Tech_Stacks() {
               <li className="m">MSSQL</li>
               <li className="m">PostgreSQL</li>
               <li className="m">Redis</li>
+              <li className="m">Memcached</li>
             </ul>
           </div>
           <div className="col">
@@ -47,7 +48,7 @@ export default function Tech_Stacks() {
       {/* <h2 className="text-blue-600">Personal Preference</h2> */}
       <br />
       <p className=" text-sm">
-        operating systems: Windows, MacOS, Pop!_OS (ubuntu linux)
+        operating systems: Pop!_OS (ubuntu linux), Windows, MacOS
       </p>
       <hr />
       <p>
