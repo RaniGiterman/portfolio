@@ -12,6 +12,7 @@ export default function Tech_Stacks() {
               <li className="m">PostgreSQL</li>
               <li className="m">Redis</li>
               <li className="m">Memcached</li>
+              <li className="m">SQLite</li>
             </ul>
           </div>
           <div className="col">
