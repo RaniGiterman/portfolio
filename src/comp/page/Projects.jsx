@@ -10,8 +10,8 @@ export default function Projects() {
       <div className="text-left">
         <h2 className="text-blue-600">My Projects</h2>
         <p>
-          The following is a selected set of projects that I worked on before
-          being hired. Click to see more.
+          The following is a selected set of projects I worked/working on. Click
+          to see more.
         </p>
 
         <div className="container text-center">
@@ -36,12 +36,14 @@ export default function Projects() {
               {" "}
               <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
                 <a
-                  href="https://wargraphjs.vercel.app/src/index.html"
+                  href="https://intel.megalean.co.il/orders/signin.aspx"
                   className="decoration-transparent proj"
                 >
                   <div className="p">
-                    <h4 className="text-cool">WarGraph</h4>
-                    <p className="text-cool">Math-based target shooter game</p>
+                    <h4 className="text-cool">Intel</h4>
+                    <p className="text-cool">
+                      consumer club for Intel employees in Israel
+                    </p>
                   </div>
                 </a>
               </AnimationOnScroll>
@@ -59,7 +61,7 @@ export default function Projects() {
                   className="decoration-transparent proj"
                 >
                   <div className="p">
-                    <h4 className="text-cool">Chess</h4>
+                    <h4 className="text-cool">chess</h4>
                     <p className="text-cool">
                       functional chess game, with a couple of twists.
                     </p>
