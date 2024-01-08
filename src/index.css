@@ -39,7 +39,7 @@ html, body {
   border-radius: 4px;
  }
 
- .m::before {
+.m::before {
   margin-right: .5rem;
   content: "#";
   color: #ccc;
@@ -150,6 +150,16 @@ p, div, h1, h2, h3, h4, h5, span{
 
 .tech-title {
   text-decoration: white underline;
+}
+
+.W::before {
+  color: rgb(3, 226, 3);
+ }
+.mid::before {
+  color: orange;
+}
+.L::before {
+  color: red;
 }
 @tailwind base;
 @tailwind components;
