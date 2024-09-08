@@ -7,10 +7,10 @@ export default function Home() {
       <br></br>
       <h2 className="text-blue-600">About Me</h2>
       <p className="text-xl mt-2">
-        My name is Rani Giterman, and I'm a student in the eleventh grade at Ironi D
-        Highschool. I began my coding journey at around age 9, although I
-        consider I really got into it at 14. I like to enrich my knowledge in
-        the computer-related world, play video-games and chess, and answer{" "}
+        My name is Rani Giterman, and I'm a senior at Ironi D Highschool. I
+        began my coding journey at around age 9, although I consider I really
+        got into it at 14. I like to enrich my knowledge in the computer-related
+        world, play video-games and chess, and answer{" "}
         <a href="https://stackoverflow.com/users/17802928/rani-giterman?tab=profile">
           stackoverflow
         </a>{" "}

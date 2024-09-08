@@ -4,7 +4,7 @@ import ReactCardFlip from "react-card-flip";
 export default function Tech_Stacks() {
   return (
     <div className="bg-cool p-10 b text-xl text-left w-full rounded">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-4">
         <div className="grid gap-4">
           <div>
             <h2 className="tech-title text-blue-600">Databases</h2>
