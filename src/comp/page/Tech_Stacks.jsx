@@ -62,7 +62,7 @@ export default function Tech_Stacks() {
           <div>
             <h2 className="tech-title text-blue-600">Containers</h2>
             <ul>
-              <li className="m mid">Kubernetes</li>
+              <li className="m W">Kubernetes</li>
               <li className="m W">Docker</li>
             </ul>
           </div>
@@ -72,15 +72,15 @@ export default function Tech_Stacks() {
             <h2 className="tech-title text-blue-600">Low Level</h2>
             <ul>
               <li className="m W">Golang</li>
+              <li className="m W">C/C++</li>
               <li className="m mid">Rust</li>
-              <li className="m mid">C/C++</li>
             </ul>
           </div>
           <div>
             <h2 className="tech-title text-blue-600">Tools</h2>
             <ul>
-              <li className="m W">WireShark</li>
               <li className="m W">Git</li>
+              <li className="m W">WireShark</li>
               <li className="m W">Prometheus</li>
               <li className="m W">Grafana</li>
               <li className="m mid">Kibana</li>

@@ -10,8 +10,8 @@ export default function Projects() {
       <div className="text-left">
         <h2 className="text-blue-600">My Projects</h2>
         <p>
-          The following is a selected set of projects I worked/working on. Click
-          to see more.
+          The following is a selected set of projects I developed. Click to see
+          more.
         </p>
 
         <div className="container text-center">
