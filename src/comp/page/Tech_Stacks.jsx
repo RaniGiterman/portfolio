@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import ReactCardFlip from "react-card-flip";
 
 export default function Tech_Stacks() {
@@ -33,6 +33,7 @@ export default function Tech_Stacks() {
               <li className="m W">HTML/CSS/JS</li>
               <li className="m W">Python</li>
               <li className="m W">Java</li>
+              <li className="m W">C#</li>
             </ul>
           </div>
           <div>
@@ -60,10 +61,12 @@ export default function Tech_Stacks() {
             </ul>
           </div>
           <div>
-            <h2 className="tech-title text-blue-600">Containers</h2>
+            <h2 className="tech-title text-blue-600">DevOps</h2>
             <ul>
               <li className="m W">Kubernetes</li>
               <li className="m W">Docker</li>
+              <li className="m W">ArgoCD</li>
+              <li className="m mid">Ansible</li>
             </ul>
           </div>
         </div>
