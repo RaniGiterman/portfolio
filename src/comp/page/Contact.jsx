@@ -25,14 +25,14 @@ export default function Contact() {
             Stack Overflow
           </a>
         </li>
-        <li className="m">
+        {/* <li className="m">
           <a href="https://leetcode.com/RaniGiterman/">LeetCode</a>
-        </li>
+        </li> */}
         {/* <li className="m">
           <a href="https://www.hackerrank.com/progranner">HackerRank</a>
         </li> */}
         <li className="m">
-          <a href="https://www.instagram.com/gitermanrani/">Instagram</a>
+          <a href="https://www.instagram.com/rani.giterman/">Instagram</a>
         </li>
         {/* <li className="m">
           <a href="https://link.clashroyale.com/invite/friend/en?tag=J0CJJ02Y0&token=z9tyxnze&platform=iOS">

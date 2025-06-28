@@ -12,6 +12,7 @@ export default function Tech_Stacks() {
               <li className="m W">MSSQL</li>
               <li className="m W">PostgreSQL</li>
               <li className="m W">Redis</li>
+              <li className="m W">MinIO</li>
               <li className="m mid">SQLite</li>
               <li className="m L">Memcached</li>
             </ul>
@@ -53,6 +54,7 @@ export default function Tech_Stacks() {
               <li className="m W">GoFiber</li>
               <li className="m W">TailwindCSS</li>
               <li className="m W">Bootstrap</li>
+              <li className="m W">Socket.io</li>
               <li className="m W">QMK</li>
               <li className="m mid">Svelte.js</li>
               <li className="m mid">PIXI.js</li>
@@ -83,9 +85,9 @@ export default function Tech_Stacks() {
             <h2 className="tech-title text-blue-600">Tools</h2>
             <ul>
               <li className="m W">Git</li>
-              <li className="m W">WireShark</li>
               <li className="m W">Prometheus</li>
               <li className="m W">Grafana</li>
+              <li className="m W">WireShark</li>
               <li className="m mid">Kibana</li>
               <li className="m mid">Jaeger</li>
             </ul>
