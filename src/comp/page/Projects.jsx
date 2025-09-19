@@ -10,8 +10,8 @@ export default function Projects() {
       <div className="text-left">
         <h2 className="text-blue-600">My Projects</h2>
         <p>
-          The following is a selected set of projects I developed. Click to see
-          more.
+          The following is a <u>selected</u> set of projects I developed and
+          contributed to. Click to see more.
         </p>
 
         <div className="container text-center">
@@ -20,18 +20,19 @@ export default function Projects() {
               {" "}
               <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
                 <a
-                  href="https://www.icmega.co.il/rani/ecom/"
+                  href="https://github.com/RaniGiterman/sokoban"
                   className="decoration-transparent proj"
                 >
                   <div className="p">
-                    <h4 className="text-cool">ecommerce shop</h4>
+                    <h4 className="text-cool">Sokoban</h4>
                     <p className="text-cool">
-                      fully functional ecommerce shop.
+                      Game and Reinforcement Learning model
                     </p>
                   </div>
                 </a>
               </AnimationOnScroll>
             </div>
+
             <div className="col">
               {" "}
               <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
@@ -42,7 +43,7 @@ export default function Projects() {
                   <div className="p">
                     <h4 className="text-cool">Intel</h4>
                     <p className="text-cool">
-                      consumer club for Intel employees in Israel
+                      Consumer club for Intel employees in Israel
                     </p>
                   </div>
                 </a>
@@ -57,31 +58,31 @@ export default function Projects() {
               {" "}
               <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
                 <a
-                  href="https://giterman-gambit.vercel.app/"
+                  href="https://www.hvr.co.il/signin.aspx"
                   className="decoration-transparent proj"
                 >
                   <div className="p">
-                    <h4 className="text-cool">chess</h4>
+                    <h4 className="text-cool">HVR</h4>
                     <p className="text-cool">
-                      functional chess game, with a couple of twists.
+                      Consumer club for military personnel in Israel
                     </p>
                   </div>
                 </a>
               </AnimationOnScroll>
             </div>
+
             <div className="col">
               {" "}
               <AnimationOnScroll animateOnce animateIn="animate__bounceIn">
                 <a
-                  href="https://rg-playground.vercel.app/"
+                  href="https://www.igm.org.il/site/pg/igm_home"
                   className="decoration-transparent proj"
                 >
                   <div className="p">
-                    <h4 className="text-cool">rg-playground</h4>
+                    <h4 className="text-cool">Mega Leaan</h4>
                     <p className="text-cool">
-                      site built for coding rg, my own programming language
+                      Consumer club for the general public in Israel
                     </p>
-                    <p></p>
                   </div>
                 </a>
               </AnimationOnScroll>
@@ -93,7 +94,8 @@ export default function Projects() {
 
         <h2 className="text-blue-600">Keyboards</h2>
         <p>
-          I like building and using split ergononic keyboards. Check out some of
+          I like building and using split ergononic keyboards. From designing
+          the PCBs to writing code for them using QMK and C. Check out some of
           them below.
         </p>
         <Carousel showArrows={true}>

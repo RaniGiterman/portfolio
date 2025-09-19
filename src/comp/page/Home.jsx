@@ -7,10 +7,10 @@ export default function Home() {
       <br></br>
       <h2 className="text-blue-600">About Me</h2>
       <p className="text-xl mt-2">
-        My name is Rani, and I'm a highschool graduate. I tend to dabble in all
-        sorts of tech fields, but I'm especially drawn to anything the web has
-        to offer. I like to enrich my knowledge in the computer-related world,
-        play video-games and chess, and listen to peak music.
+        My name is Rani, and I'm 18 years old. I tend to dabble in all sorts of
+        tech fields and wear many hats. I like to enrich my knowledge in the
+        computer-related world, play video-games and chess, and listen to peak
+        music.
       </p>
     </div>
   );

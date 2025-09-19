@@ -16,14 +16,16 @@ export default function Contact() {
       </div>
       <br />
       <h3 className="text-blue-600">Media</h3>
+      <div className="mb-2">One might find me on: </div>
       <ul>
         <li className="m">
-          <a href="https://github.com/RaniGiterman">GitHub</a>
+          <a href="https://github.com/RaniGiterman">Github</a>
         </li>
         <li className="m">
           <a href="https://stackoverflow.com/users/17802928/rani-giterman">
-            Stack Overflow
+            StackOverflow
           </a>
+          ...
         </li>
         {/* <li className="m">
           <a href="https://leetcode.com/RaniGiterman/">LeetCode</a>
@@ -32,7 +34,13 @@ export default function Contact() {
           <a href="https://www.hackerrank.com/progranner">HackerRank</a>
         </li> */}
         <li className="m">
-          <a href="https://www.instagram.com/rani.giterman/">Instagram</a>
+          <a href="https://www.instagram.com/rani.giterman/">'Stuhgram</a>
+        </li>
+
+        <li className="m">
+          <a href="https://www.linkedin.com/in/rani-giterman-36a499336/">
+            LinkedIn
+          </a>
         </li>
         {/* <li className="m">
           <a href="https://link.clashroyale.com/invite/friend/en?tag=J0CJJ02Y0&token=z9tyxnze&platform=iOS">
