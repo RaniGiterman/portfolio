@@ -79,9 +79,9 @@ export default function Projects() {
                   className="decoration-transparent proj"
                 >
                   <div className="p">
-                    <h4 className="text-cool">Mega Leaan</h4>
+                    <h4 className="text-cool">Irgun HaMorim</h4>
                     <p className="text-cool">
-                      Consumer club for the general public in Israel
+                      Consumer club for the Israel's teachers 
                     </p>
                   </div>
                 </a>
