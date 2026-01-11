@@ -4,7 +4,8 @@ export default function End() {
   return (
     <div className="g text-sm mt-3 mb-2">
       <div>
-        Copyright © 2025, Rani Giterman. All rights reserved.
+        {/* Copyright © 2026, Rani Giterman. All rights reserved. */}
+        Rani Giterman • 2026
         <div className="flex justify-center mt-2">
           <div className="ml-2 mt-6">✡</div>
           <div className="ml-2 mt-6">✡</div>

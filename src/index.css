@@ -157,6 +157,9 @@ p, div, h1, h2, h3, h4, h5, span{
   text-decoration: white underline;
 }
 
+.HOT::before {
+  color: rgb(52, 225, 235);
+ }
 .W::before {
   color: rgb(3, 226, 3);
  }

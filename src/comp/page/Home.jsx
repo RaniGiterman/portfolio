@@ -6,8 +6,8 @@ export default function Home() {
       <img src="rani.jpg" alt="Me" className="w-full rounded-sm h-full"></img>
       {/* <img src="rah.jpeg" alt="Me" className="w-full h-full rounded-sm"></img> */}
       <br></br>
-      <h2 className="text-blue-600">---</h2>
-      <p className="text-xl mt-2">Currently learning quantum procrastination & deadline manipulation, 
+      {/* <h2 className="text-blue-600">---</h2> */}
+      <p className="text-xl mt-2">Currently interested in quantum procrastination & deadline manipulation, 
       copy-paste driven development, force push and pray, 
       strategic caffeination, comprehensive comprehension, and ducks 
       (those quacky bread-loving water birds).</p>

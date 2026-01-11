@@ -14,6 +14,8 @@ export default function Tech_Stacks() {
               <li className="m W">MSSQL</li>
               <li className="m W">PostgreSQL</li>
               <li className="m W">Redis</li>
+              <li className="m W">CockroachDB</li>
+              <li className="m W">Trino</li>
               <li className="m W">MinIO</li>
               <li className="m mid">SQLite</li>
               <li className="m L">Memcached</li>
@@ -67,8 +69,9 @@ export default function Tech_Stacks() {
                 </a>
               </li>
               <li className="m W">Pytorch</li>
+              <li className="m W">Ollama</li>
+              <li className="m W">LangChain</li>
               <li className="m mid">Keras</li>
-              <li className="m mid">Ollama</li>
             </ul>
           </div>
         </div>
@@ -83,6 +86,7 @@ export default function Tech_Stacks() {
               <li className="m W">TailwindCSS</li>
               <li className="m W">Bull</li>
               <li className="m W">Bootstrap</li>
+              <li className="m W">Kafka</li>
               <li className="m W">Socket.io</li>
               <li className="m W">QMK</li>
               <li className="m mid">Svelte.js</li>
@@ -97,6 +101,8 @@ export default function Tech_Stacks() {
               <li className="m W">Kubernetes</li>
               <li className="m W">Docker</li>
               <li className="m W">ArgoCD</li>
+              <li className="m W">NiFi</li>
+              <li className="m W">Helm</li>
               <li className="m mid">Ansible</li>
             </ul>
           </div>
